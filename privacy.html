@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - BrowserLock</title>
+  <style>
+    :root {
+      --bg-color: #0a0c14;
+      --card-bg: rgba(255, 255, 255, 0.03);
+      --text-main: #e8e8e8;
+      --text-dim: rgba(255, 255, 255, 0.45);
+      --accent: #378ADD;
+      --accent-dim: rgba(55, 138, 221, 0.15);
+      --border: rgba(255, 255, 255, 0.07);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 800px;
+      width: 100%;
+      animation: fadeIn 0.8s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: -1px;
+      margin-bottom: 10px;
+      background: linear-gradient(135deg, #fff 0%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .last-updated {
+      font-size: 0.9rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    section {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px;
+      margin-bottom: 30px;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    section:hover {
+      border-color: rgba(55, 138, 221, 0.3);
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: var(--accent);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    h2::before {
+      content: '';
+      display: block;
+      width: 4px;
+      height: 24px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: var(--text-main);
+      opacity: 0.9;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 20px;
+    }
+
+    li {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 12px;
+      color: var(--text-main);
+      opacity: 0.85;
+    }
+
+    li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    .highlight-box {
+      background: var(--accent-dim);
+      border: 1px solid rgba(55, 138, 221, 0.3);
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding-top: 40px;
+      border-top: 1px solid var(--border);
+      color: var(--text-dim);
+      font-size: 0.9rem;
+    }
+
+    .contact-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      transition: opacity 0.2s;
+    }
+
+    .contact-link:hover {
+      opacity: 0.8;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 20px 15px; }
+      section { padding: 25px; }
+      h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <path d="M16 2L6 6v7c0 8 10 17 10 17s10-9 10-17V6L16 2z" fill="url(#pg1)" stroke="#378ADD" stroke-width="1.5" />
+          <rect x="11" y="14" width="10" height="8" rx="2" fill="white" />
+          <path d="M13 14V11a3 3 0 116 0v3" stroke="white" stroke-width="1.8" stroke-linecap="round" />
+          <defs>
+            <linearGradient id="pg1" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#185FA5" />
+              <stop offset="1" stop-color="#378ADD" stop-opacity="0.4" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <h1>Privacy Policy</h1>
+      <div class="last-updated">Last Updated: March 30, 2026</div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Our Commitment</h2>
+        <p>Your privacy is the cornerstone of <strong>BrowserLock</strong>. We believe that your security tools should protect your data, not collect it. This policy explains how we handle information and why we require certain permissions to keep your browser profile safe.</p>
+        <div class="highlight-box">
+          <strong>TL;DR:</strong> We do not collect, store, or transmit your personal data, PINs, or browsing history to any external servers. Everything stays on your machine.
+        </div>
+      </section>
+
+      <section>
+        <h2>Data Collection & Usage</h2>
+        <p>BrowserLock is designed to operate entirely within your local Chrome environment. We do not use any tracking pixels, analytics, or remote logging services.</p>
+        <ul>
+          <li><strong>PIN Protection:</strong> Your access PIN is hashed and stored locally using the Chrome Storage API. We never see it, and it never leaves your device.</li>
+          <li><strong>Settings:</strong> All configuration choices (auto-lock timers, quarantine settings, etc.) are saved locally for your convenience.</li>
+          <li><strong>Browsing History:</strong> If you enable the "Clear History on Quarantine" feature, the extension will clear your local history during a security event. We do not read or record your history.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Permissions Explained</h2>
+        <p>To provide professional-grade security, BrowserLock requires specific permissions. Here is exactly why we need them:</p>
+        <ul>
+          <li><strong>Storage:</strong> To save your encrypted PIN hash and security preferences locally on your computer.</li>
+          <li><strong>Idle:</strong> To detect when you are away from your computer so we can automatically lock the browser for you.</li>
+          <li><strong>Notifications:</strong> To alert you before an auto-lock occurs, giving you a chance to stay active.</li>
+          <li><strong>History:</strong> Only used if you enable the security feature to wipe history after multiple failed PIN attempts.</li>
+          <li><strong>Tabs:</strong> To ensure the lock screen overlay covers every open window and tab consistently.</li>
+          <li><strong>Alarms:</strong> To manage precise timing for quarantine periods and pre-lock notifications.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Third-Party Sharing</h2>
+        <p>We do not share, sell, or trade your information with third parties. Since no data is collected in the first place, there is no data to share. BrowserLock does not communicate with any external APIs or servers.</p>
+      </section>
+
+      <section>
+        <h2>Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy or the security of BrowserLock, please contact us at:</p>
+        <p><a href="mailto:support@browserlock.io" class="contact-link">support@browserlock.io</a></p>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2026 BrowserLock Security. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
